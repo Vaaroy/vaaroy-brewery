@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "webpack --watch --mode=development",
+        "build": "webpack --mode=production",
+        "start": "php artisan serve",
+        "test": "php artisan test"
+      },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "esbuild": "^0.17.19",
+        "laravel-mix": "^6.0.49"
+    }
+}
